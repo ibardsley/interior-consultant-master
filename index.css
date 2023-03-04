@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background: #181719
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 10vh;
+    margin-top: 30px;
+}
+
+.company {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    box-sizing: border-box;
+    width: 102px;
+    height: 32px;
+    border: 1px solid #FFFFFF;
+}
+
+.company > .interior {
+    font-family: 'Crimson Pro', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    
+}
+
+.nav {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #181719;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 600px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color:  orange;
+  }
+
+  .active {
+    color: #FFFFFF;
+    font-weight: 700;
+    border-bottom: #FFFFFF solid 3px;
+  }
+
+  .container {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .image {
+    width: 811px;
+    height: 587px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+
+  img {
+    width: 737px;
+    height: 555px;
+  }
+
+  .room > h1 {
+    font-family: 'Lora', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 61px;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+  }
+
+  .room > .modern {
+    width: 410px;
+    height: 145px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+  }
+
+  .room > div {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
