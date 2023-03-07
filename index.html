@@ -10,19 +10,22 @@
     <title>Interior Consultant</title>
 </head>
 <body>
-      <header>
-        <div class="company">
-          <p class="interior">This Interior</p>
+      <nav>
+        <div class="navbar">
+          <p class="navbar-brand">This Interior</p>
+          <button class="toggle-collapse">
+            <i class="fas fa-align-center fa-lg"></i>
+          </button>
+          <div class="navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="active" href="#home">Home</a></li>
+              <li class="nav-item"><a href="#collection">Collection</a></li>
+              <li class="nav-item"><a href="#about">About</a></li>
+              <li class="nav-item"><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="nav">
-          <ul>
-            <li><a class="active" href="#home">Home</a></li>
-            <li><a href="#collection">Collection</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </header>
+      </nav>
 
       <div class="container">
         <div class="room">
@@ -30,13 +33,33 @@
           <p class="modern">A Full-Service residential & commercial 
             interior design and staging company offering professional 
             organizing & eco-services.</p>
-          <div>Read more <i class='fas fa-long-arrow-alt-right' style="padding-left: 15px;"></i></div>
+          <div><a href="#readMore">Read more</a><i class='fas fa-long-arrow-alt-right' style="padding-left: 15px;"></i></div>
         </div>
         <div class="image">
           <img src="photo1.png" alt="staged room">
+          <div class="text-block">
+            <div class="designer">
+              <img src="photo2.png" alt="female smiling">
+              <div class="name">
+                <h3>Aliza Webber</h3>
+              <p class="title">Interior Designer</p>
+              </div>
+            </div>
+              <p class="signature">Designed in 2020 by Aliza Webber</p>
+          </div>
         </div>
       </div>
-    
 
+      <footer>created by ibardsley - devChallenes.io</footer>
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+      <script>
+        $(document).ready(function() {
+          $('.toggle-collapse').click(function() {
+            $('.navbar-collapse').toggleClass('collapse');
+          })
+        });
+      </script>
 </body>
 </html>
