@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://splendid-bublanina-5faee1.netlify.app/">
       Demo
     </a>
     <span> | </span>
@@ -40,7 +40,7 @@
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-- Where can I see your demo?
+- Where can I see your demo? https://splendid-bublanina-5faee1.netlify.app/
 - What was your experience? This was a challenge to complete all the responsive aspects and took me much longer than I had hoped
 - What have you learned/improved? I feel I have improved at visualizing the responsive break points and making the adjustments needed.
     I also learned about using positioning and Z index to get my menu to overlay the other sections.
